@@ -12,7 +12,7 @@ SQLite3
 
 # Installation
 
-Clone this repository: git clone https://github.com/your-username/recipe-app.git
+Clone this repository: git clone https://github.com/Pauline-njuguna/phase-3-sinatra-react-project.git
 
 Navigate to the project directory: cd recipe-app
 
@@ -22,7 +22,7 @@ Set up the database: rake db:migrate
 
 Seed the database: rake db:seed
 
-Start the server: ruby app.rb
+Start the server: bundle exec rake server
 
 Access the application in a web browser at http://localhost:9292
 # Usage
@@ -42,7 +42,7 @@ Delete a Recipe
 To delete a recipe, click on the recipe card on the home page or the recipe title on the search results page. This will take you to a page with the recipe details. Click the "Delete" button at the bottom of the page to delete the recipe from the database. Note that this action cannot be undone.
 
 # Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/your-username/recipe-app. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Pauline-njuguna/phase-3-sinatra-react-project.git. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
 # License
 This project is available as open source under the terms of the MIT License.-
