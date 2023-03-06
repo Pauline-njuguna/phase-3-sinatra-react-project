@@ -47,7 +47,9 @@ end
   delete '/recipes/:id' do
     recipes = Recipe.find(params[:id])
     recipes.destroy
+    recipes.to_json
     { message: 'Recipe deleted' }.to_json
+
   end
 
    # Add your routes for reviews here

@@ -1,4 +1,4 @@
-ActiveRecord::Base.connection.execute('PRAGMA foreign_keys = OFF')
+# ActiveRecord::Base.connection.execute('PRAGMA foreign_keys = OFF')
 
 require 'faker'
 
@@ -24,4 +24,4 @@ end
   )
 end
 
-ActiveRecord::Base.connection.execute('PRAGMA foreign_keys = ON')
+# ActiveRecord::Base.connection.execute('PRAGMA foreign_keys = ON')

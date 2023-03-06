@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 2023_03_04_161353) do
-require 'faker'
+
   create_table "recipes", force: :cascade do |t|
     t.string "image_url"
     t.string "Meal"
@@ -32,5 +32,5 @@ require 'faker'
     t.index ["recipe_id"], name: "index_reviews_on_recipe_id"
   end
 
-  add_foreign_key "reviews", "recipes"
+  # add_foreign_key "reviews", "recipes"
 end
