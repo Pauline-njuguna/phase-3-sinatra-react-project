@@ -1,5 +1,9 @@
 # Recipe App
 
+# PAULINE NJUGUNA
+
+# paulinenjuguna.w@gmail.com
+
 This is a Sinatra-based web application that allows users to search for and view recipes. Users can also add new recipes to the database, view and add reviews, and delete recipes.
 
 # Prerequisites
@@ -49,6 +53,7 @@ To delete a recipe, click on the recipe card on the home page or the recipe titl
 
 # Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/Pauline-njuguna/phase-3-sinatra-react-project.git. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+
 
 # License
 This project is available as open source under the terms of the MIT License.-
